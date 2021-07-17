@@ -29,8 +29,7 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:nowatch": "react-scripts test --coverage",
