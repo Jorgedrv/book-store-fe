@@ -30,7 +30,6 @@ const Login = () => {
     const { enqueueSnackbar } = useSnackbar();
 
     useEffect(() => {
-        debugger;
         if (loginPromise.isErrorOcurred) {
             enqueueSnackbar('Username or password is wrong!', {
                 variant: 'error'
